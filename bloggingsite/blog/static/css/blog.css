@@ -1,0 +1,63 @@
+/* FILEPATH: /e:/Social Profile/Github/Blogging_Site_Django/bloggingsite/blog/static/css/blog.css */
+
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the header */
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content */
+p {
+    color: #666;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Loader styles */
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.techfonts {
+    font-family: "Russo One", sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.bigbrand{
+    font-size: 1.5em;
+}
