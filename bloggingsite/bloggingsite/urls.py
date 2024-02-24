@@ -22,5 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("",include('blogs.urls')),
     path("accounts/login", views.login, name='login'),
-    path("accounts/logout", views.logout, name='logout', kwargs={'next_page':'/'})
+    path("accounts/logout", views.logout, name='logout', kwargs={'next_page':'/'}) 
 ]
