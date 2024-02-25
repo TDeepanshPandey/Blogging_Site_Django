@@ -1,3 +1,4 @@
+[![wakatime](https://wakatime.com/badge/user/d9585be0-a800-4e7a-9c42-e2fb31c12a87/project/018bb2b9-444a-4e5b-b049-7526e1d8b226.svg)](https://wakatime.com/badge/user/d9585be0-a800-4e7a-9c42-e2fb31c12a87/project/018bb2b9-444a-4e5b-b049-7526e1d8b226)
 # Blogging Site with Django
 
 This project is a blogging site developed using the Django web framework. It allows users to create, read, update, and delete blog posts. 
